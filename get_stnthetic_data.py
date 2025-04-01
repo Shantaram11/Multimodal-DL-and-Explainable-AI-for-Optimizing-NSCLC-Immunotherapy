@@ -23,7 +23,7 @@ def generate_synthetic_data(train_set_ratio, target, k):
     return train_set, test_set
 
 
-# Call this function to get split data in for training and testing set
+# Call this function to get split data for training and testing set
 # parameter train_set_ratio is the ratio for training set. recommend range is [0.3, 0.7] because our original data has imbalance classes
 # parameter k is for SMOTE, since SMOTE is a method based on K-nn. recommend range is [2, 5]
 # Since we only use partial data to generate synthetic data, I shrank the size of training set from 500 into 400
