@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 
 
 def generate_synthetic_data(train_set_ratio, target, k):
-    data = pd.read_csv("final_merged_pca.csv")
+    data = pd.read_csv("final_merged_rfe.csv")
     best_response = data["Best response"]
     potential_status = data["Potential status"]
     progression_occurrence = data["Progression occurrence"]
