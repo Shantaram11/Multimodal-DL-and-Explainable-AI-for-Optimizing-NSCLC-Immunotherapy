@@ -67,3 +67,12 @@ def get_synthetic_data_CTGAN(n, file, train_set_ratio=0.6):
     train_set_po, test_set_po = generate_synthetic_data_CTGAN(n, file, train_set_ratio, "po")
     train_set_ps, test_set_ps = generate_synthetic_data_CTGAN(n, file, train_set_ratio, "ps")
     return train_set_bs, test_set_bs, train_set_ps, test_set_ps, train_set_po, test_set_po
+
+## Inputs:
+#  glossary_path: "final_glossary.csv"
+#  feature_list: list of feature names from final_merged_rfe.csv or rfe.csv
+## Output:
+#  list[Str] descriptions fro each feature in feature_list
+def get_description(glossary_path, feature_list):
+    glossary = pd.read_csv(glossary_path)
+    return list(glossary[glossary["Feature"].isin(feature_list)]["Description"])
