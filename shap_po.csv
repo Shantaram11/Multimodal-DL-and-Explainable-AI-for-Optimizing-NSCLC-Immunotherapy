@@ -1,0 +1,6 @@
+Features,Shap
+Cytotoxic lymphocytes,0.1400831200447426
+Dmax (m**(-1)),0.03170930088896998
+{tumor}_{nests}_{perimeter/area}_{1-largest},0.02874914919780671
+{tumor}_{nests}_{solidity}_{mean},0.028388136817232127
+B lineage,0.027200569824114583
