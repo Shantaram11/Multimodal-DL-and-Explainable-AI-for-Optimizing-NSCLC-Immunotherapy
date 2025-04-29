@@ -1,0 +1,116 @@
+Feature,Description
+patient_id,Patient ID as index
+B lineage,Absolute abundance of B lineage cells quantified with MCP counter method
+CD8 T cells,Absolute abundance of CD8 T cells quantified with MCP counter method
+Cytotoxic lymphocytes,Absolute abundance of Cytotoxic lymphocytes quantified with MCP counter method
+Endothelial cells,Absolute abundance of endothelial cells quantified with MCP counter method
+Fibroblasts,Absolute abundance of fibroblasts quantified with MCP counter method
+Monocytic lineage,Absolute abundance of monocytic lineage cells quantified with MCP counter method
+Myeloid dendritic cells,Absolute abundance of myeloid dendritic cells quantified with MCP counter method
+NK cells,Absolute abundance of natural killer (NK) cells quantified with MCP counter method
+Neutrophils,Absolute abundance of neutrophils quantified with MCP counter method
+T cells,Absolute abundance of T cells quantified with MCP counter method
+KRAS,Log-expression (log(TPM + 1)) of KRAS gene
+EGFR,Log-expression (log(TPM + 1)) of EGFR gene
+CD274,Log-expression (log(TPM + 1)) of CD274 gene
+MET,Log-expression (log(TPM + 1)) of MET gene
+BRAF,Log-expression (log(TPM + 1)) of BRAF gene
+ROS1,Log-expression (log(TPM + 1)) of ROS1 gene
+ALK,Log-expression (log(TPM + 1)) of ALK gene
+ERBB2,Log-expression (log(TPM + 1)) of ERBB2 gene
+ERBB4,Log-expression (log(TPM + 1)) of ERBB4 gene
+DDR2,Log-expression (log(TPM + 1)) of DDR2 gene
+FGFR1,Log-expression (log(TPM + 1)) of FGFR1 gene
+FGFR2,Log-expression (log(TPM + 1)) of FGFR2 gene
+FGFR3,Log-expression (log(TPM + 1)) of FGFR3 gene
+NTRK1,Log-expression (log(TPM + 1)) of NTRK1 gene
+NTRK2,Log-expression (log(TPM + 1)) of NTRK2 gene
+NTRK3,Log-expression (log(TPM + 1)) of NTRK3 gene
+LTK,Log-expression (log(TPM + 1)) of LTK gene
+RET,Log-expression (log(TPM + 1)) of RET gene.
+NRG1,Log-expression (log(TPM + 1)) of NRG1 gene
+NRAS,Log-expression (log(TPM + 1)) of NRAS gene
+MAP2K1,Log-expression (log(TPM + 1)) of MAP2K1 gene
+RIT1,Log-expression (log(TPM + 1)) of RIT1 gene
+TMB_RNA,Tumor Mutational Burden (TMB) estimated from the RNA-seq reads using a custom pipeline
+Biopsy site,Absolute abundance of B lineage cells quantified with MCP counter method
+Dmax (m**(-1)),Largest distance between the centroids of two lesions normalized by the body surface area
+liver_SUVMean (SUVbw),liver_SUVMean: Mean of SUV values in a spherical ROI manually delineated in a healthy part of the liver on the PET scan
+spleen_SUVMean (SUVbw),Mean of SUV values in a spherical ROI manually delineated in a healthy part of the spleen on the PET scan
+TMTV (mm**3),"Total Metabolic Tumor Volume computed with all the segmented lesions (excluding diffuse lesions corresponding to lymphangitic spread, diffuse pleural metastases, diffuse myocardial metastases, and diffuse subdiaphragmatic metastases)"
+Nb invaded organs (unitless),"Number of invaded organs visible on the PET scan, including the lungs, sub- and supra-diaphragmatic lymph nodes, the pleura, the liver, the bones, the adrenal gland, and a final category for other regions"
+Distance dispersion (unitless),Quartile dispersion of the distances between each tumor region's centroid and the global centroid
+T_TMTV (mm**3),Total Metabolic Tumor Volume computed with the segmented lesions located in regions associated with the T stage (excluding lymphangitic spread). 0 if no lesions in these regions
+N1_TMTV (mm**3),Total Metabolic Tumor Volume computed with the segmented lesions located in regions associated with the N1 stage. 0 if no lesions in these regions
+N2_TMTV (mm**3),Total Metabolic Tumor Volume computed with the segmented lesions located in regions associated with the N2 stage. 0 if no lesions in these regions
+N3_TMTV (mm**3),Total Metabolic Tumor Volume computed with the segmented lesions located in regions associated with the N3 stage. 0 if no lesions in these regions
+M1a_TMTV (mm**3),Total Metabolic Tumor Volume computed with the segmented lesions located in regions associated with the M1a stage (excluding diffuse pleural metastases). 0 if no lesions in these regions
+M1bc_TMTV (mm**3),Total Metabolic Tumor Volume computed with the segmented lesions located in regions associated with the M1b and M1c stages (excluding diffuse subdiaphragmatic metastases). 0 if no lesions in these regions
+T_Suvmax_max (SUVbw),"Maximum value of the SUVmax of the segmented lesions located in regions associated with the T stage (i.e., primary lung tumor and ipsilateral lung metastases). 0 if no lesions in these regions."
+N1_Suvmax_max (SUVbw),"Maximum value of the SUVmax of the segmented lesions located in regions associated with the N1 stage (i.e., ipsilateral hilar and mediastinal-hilar lymph nodes). 0 if no lesions in these regions"
+N2_Suvmax_max (SUVbw),"Maximum value of the SUVmax of the segmented lesions located in regions associated with the N2 stage (i.e., ipsilateral mediastinal lymph nodes and subcarinal lymph nodes). 0 if no lesions in these regions"
+N3_Suvmax_max (SUVbw),"Maximum value of the SUVmax of the segmented lesions located in regions associated with the N3 stage (i.e., contralateral mediastinal and hilar lymph nodes and supraclavicular lymph nodes). 0 if no lesions in these regions"
+M1a_Suvmax_max (SUVbw),"Maximum value of the SUVmax of the segmented lesions located in regions associated with the M1a stage (i.e., contralateral lung metastases and pleural metastases). 0 if no lesions in these regions"
+M1bc_Suvmax_max (SUVbw),"Maximum value of the SUVmax of the segmented lesions located in regions associated with the M1b and M1c stages (i.e., extrathoracic metastases). 0 if no lesions in these regions"
+T_Suvmax_std (SUVbw),"Standard deviation value of the SUVmax of the segmented lesions located in regions associated with the T stage (i.e., primary lung tumor and ipsilateral lung metastases). 0 if no lesions in these regions"
+N1_Suvmax_std (SUVbw),"Standard deviation value of the SUVmax of the segmented lesions located in regions associated with the N1 stage (i.e., ipsilateral hilar and mediastinal-hilar lymph nodes). 0 if no lesions in these regions"
+N2_SUVmax_std (SUVbw),"Standard deviation value of the SUVmax of the segmented lesions located in regions associated with the N2 stage (i.e., ipsilateral mediastinal lymph nodes and subcarinal lymph nodes). 0 if no lesions in these regions"
+N3_Suvmax_std (SUVbw),"Standard deviation value of the SUVmax of the segmented lesions located in regions associated with the N3 stage (i.e., contralateral mediastinal and hilar lymph nodes and supraclavicular lymph nodes). 0 if no lesions in these regions"
+M1a_Suvmax_std (SUVbw),"Standard deviation value of the SUVmax of the segmented lesions located in regions associated with the M1a stage (i.e., contralateral lung metastases and pleural metastases). 0 if no lesions in these regions"
+M1bc_Suvmax_std (SUVbw),"Standard deviation value of the SUVmax of the segmented lesions located in regions associated with the M1b and M1c stages (i.e., extrathoracic metastases). 0 if no lesions in these regions"
+M1bc_Suvmax_mean (SUVbw),"Mean value of the SUVmax of 
+the segmented lesions located in regions associated with the M1b and M1c stages (i.e., 
+extrathoracic metastases). 0 if no lesions in these regions"
+{whole-tissue}_{neoplastic/connective}, Ratio of neoplastic to connective cells in the whole tissue region.
+{whole-tissue}_{neoplastic/epithelial}, Ratio of neoplastic to epithelial cells in the whole tissue region.
+{whole-tissue}_{connective/dead}, Ratio of connective to dead cells in the whole tissue region.
+{whole-tissue}_{dead/epithelial}, Ratio of dead to epithelial cells in the whole tissue region.
+{whole-tissue}_{tissue-no-class/invasive-tumor}, Ratio of tissue-no-class to invasive-tumor cells in the whole tissue region.
+{whole-tissue}_{tissue-no-class/tumor-associated-stroma}, Ratio of tissue-no-class to tumor-associated-stroma cells in the whole tissue region.
+{whole-tissue}_{tissue-no-class/necrosis-not-in-situ}, Ratio of tissue-no-class to necrosis-not-in-situ cells in the whole tissue region.
+{whole-tissue}_{invasive-tumor/inflamed-stroma}, Ratio of invasive-tumor to inflamed-stroma cells in the whole tissue region.
+{whole-tissue}_{tissue-no-class}, Feature extracted from the whole tissue_tissue no class region of tissue.
+{tumor-core}_{neoplastic/inflammatory}, Ratio of neoplastic to inflammatory cells in the tumor core region.
+{tumor-core}_{inflammatory/epithelial}, Ratio of inflammatory to epithelial cells in the tumor core region.
+{tumor-core}_{inflammatory/tissue-no-class}, Ratio of inflammatory to tissue-no-class cells in the tumor core region.
+{tumor-core}_{dead/epithelial}, Ratio of dead to epithelial cells in the tumor core region.
+{tumor-border-50um}_{necrosis-not-in-situ}, Feature extracted from the tumor border 50um_necrosis not in situ region of tissue.
+{tumor-stroma}_{neoplastic/inflammatory}, Ratio of neoplastic to inflammatory cells in the tumor stroma region.
+{tumor-stroma}_{inflammatory/connective}, Ratio of inflammatory to connective cells in the tumor stroma region.
+{tumor-stroma}_{inflammatory/dead}, Ratio of inflammatory to dead cells in the tumor stroma region.
+{tumor-stroma}_{inflammatory/tissue-no-class}, Ratio of inflammatory to tissue-no-class cells in the tumor stroma region.
+{necrosis}_{connective/tissue-no-class}, Ratio of connective to tissue-no-class cells in the necrosis region.
+{inflammatory}_{inflammatory/connective}, Ratio of inflammatory to connective cells in the inflammatory region.
+{inflammatory}_{connective/dead}, Ratio of connective to dead cells in the inflammatory region.
+{tumor}_{spread-normalized}, Feature extracted from the tumor_spread normalized region of tissue.
+{tumor}_{nests}_{perimeter}_{p50}, Perimeter p50 of nests cell nests in the tumor region.
+{tumor}_{nests}_{eccentricity}_{mean}, Eccentricity mean of nests cell nests in the tumor region.
+{tumor}_{nests}_{solidity}_{mean}, Solidity mean of nests cell nests in the tumor region.
+{tumor}_{nests}_{perimeter/area}_{1-largest}, Perimeter/area 1-largest of nests cell nests in the tumor region.
+{tumor}_{nests}_{solidity}_{5-largest}, Solidity 5-largest of nests cell nests in the tumor region.
+{tumor}_{nests}_{perimeter/area}_{5-largest}, Perimeter/area 5-largest of nests cell nests in the tumor region.
+{tumor}_{nests}_{eccentricity}_{20-largest}, Eccentricity 20-largest of nests cell nests in the tumor region.
+{tumor}_{major-axis-length}_{global}, Feature extracted from the tumor_major axis length_global region of tissue.
+{tumor-stroma}_{nests}_{eccentricity}_{mean}, Eccentricity mean of nests cell nests in the tumor stroma region.
+{tumor-stroma}_{nests}_{eccentricity}_{1-largest}, Eccentricity 1-largest of nests cell nests in the tumor stroma region.
+{tumor-stroma}_{nests}_{solidity}_{1-largest}, Solidity 1-largest of nests cell nests in the tumor stroma region.
+{tumor-stroma}_{nests}_{solidity}_{5-largest}, Solidity 5-largest of nests cell nests in the tumor stroma region.
+{necrosis}_{nests}_{count}, Count of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{perimeter}_{p75}, Perimeter p75 of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{perimeter}_{mean}, Perimeter mean of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{eccentricity}_{mean}, Eccentricity mean of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{perimeter}_{1-largest}, Perimeter 1-largest of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{eccentricity}_{1-largest}, Eccentricity 1-largest of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{eccentricity}_{5-largest}, Eccentricity 5-largest of nests cell nests in the necrosis region.
+{necrosis}_{nests}_{solidity}_{20-largest}, Solidity 20-largest of nests cell nests in the necrosis region.
+{necrosis}_{extent}_{global}, Feature extracted from the necrosis_extent_global region of tissue.
+{inflammatory}_{nests}_{perimeter}_{mean}, Perimeter mean of nests cell nests in the inflammatory region.
+{inflammatory}_{nests}_{solidity}_{mean}, Solidity mean of nests cell nests in the inflammatory region.
+{inflammatory}_{nests}_{eccentricity}_{1-largest}, Eccentricity 1-largest of nests cell nests in the inflammatory region.
+{inflammatory}_{nests}_{solidity}_{5-largest}, Solidity 5-largest of nests cell nests in the inflammatory region.
+{inflammatory}_{nests}_{perimeter/area}_{5-largest}, Perimeter/area 5-largest of nests cell nests in the inflammatory region.
+{inflammatory}_{nests}_{eccentricity}_{20-largest}, Eccentricity 20-largest of nests cell nests in the inflammatory region.
+chemotherapy,Patient dealt by cgemotherapy or not
+Best response,The Best response to the patient. 0 if the best response is Progression or Stable disease whereas 1 if Partial response or Complete response
+Progression occurrence,If the first progression occured within 6 months. 1 if yes and 0 if no
+Potential status,If the patient will die within 1 year. 1 if yes and 0 if no

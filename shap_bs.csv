@@ -1,0 +1,6 @@
+Features,Shap
+Cytotoxic lymphocytes,0.10572732200712158
+Dmax (m**(-1)),0.05054199026100534
+{inflammatory}_{connective/dead},0.048412024657528356
+liver_SUVMean (SUVbw),0.04721300045135069
+{tumor-stroma}_{nests}_{eccentricity}_{mean},0.04541970302839159
