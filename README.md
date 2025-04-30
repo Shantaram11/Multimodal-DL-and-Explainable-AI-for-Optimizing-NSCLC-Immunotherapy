@@ -8,7 +8,7 @@
 
 4. get_synthetic_data.py contains all functions for generating synthetic data by SMOTE 
 
-5. model.py contains all code for MLP
+5. model.py contains all code for MLP, both training and evaluating
  
 6. run_shap.py contains all code for calculating SHAP values
 
